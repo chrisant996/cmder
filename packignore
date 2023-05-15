@@ -2,12 +2,16 @@ launcher
 .gitignore
 .gitattributes
 .git
-*.rb
+.github
+.vs
+.vscode
+.idea
+*.md
 build
 scripts
 config\.history
 packignore
-icons\Thumbs.db
+Thumbs.db
 icons\cmder_icon.psd
 icons\icon_16*.png
 icons\icon_32*.png
@@ -19,3 +23,5 @@ appveyor.yml
 vendor\cmder.sh
 vendor\git-prompt.sh
 config\user-*
+clink_history*
+*.log
