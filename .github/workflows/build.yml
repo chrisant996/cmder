@@ -35,7 +35,7 @@ jobs:
       discussions: write
     steps:
     - name: Check out repository code (Action from GitHub)
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
       with:
         fetch-depth: 0
 
@@ -78,7 +78,7 @@ jobs:
         name: hashes.txt
 
     - name: Create Release
-      uses: softprops/action-gh-release@v1
+      uses: softprops/action-gh-release@v2
       with:
         files: |
           build/cmder.zip
